@@ -6,7 +6,7 @@ const submitPassword = document.getElementById("submit-password");
 const errorMessage = document.getElementById("error-message");
 
 // Set the correct password (without leading zero)
-const CORRECT_PASSWORD = 6112004;
+const CORRECT_PASSWORD = 141220000;
 
 // Event Listener for Password Submission
 submitPassword.addEventListener("click", () => {
@@ -17,7 +17,7 @@ submitPassword.addEventListener("click", () => {
         window.location.href = "flower.html";
     } else {
         // Display error message if the password is incorrect
-        errorMessage.textContent = "Có chừng đấy cũng không nhập được =((((";
+        errorMessage.textContent = "Nah it´s really simple, think babe: What´s day is it? ";
     }
 });
 
